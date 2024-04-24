@@ -149,17 +149,18 @@
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
-    gap:10px;
+    gap:5px;
 }
 .work{
     display: flex;
     align-items: center;
     justify-content: center;
     gap:20px;
+    flex-wrap:wrap;
 }
 .proj1{
     position: relative;
-   flex-basis: 25%;
+   width: 23%;
     flex-grow: 1;
     height: 30vh;
     border-radius: 5px;
@@ -476,10 +477,9 @@
     
     .work{
         width: 100%;
-        flex-direction:column;
     }
     .proj1{
-        flex-basis: 100%;
+        width: 100%;
     }
     .proj1 img{
         object-fit: cover;
