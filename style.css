@@ -473,8 +473,10 @@
         display: none;
     }
 
+    
     .work{
         width: 100%;
+        flex-direction:column;
     }
     .proj1{
         flex-basis: 100%;
